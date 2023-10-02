@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-container {
+  background-color: #1e293b;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  color: #f0bb03;
+}
+.para {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.btn {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
